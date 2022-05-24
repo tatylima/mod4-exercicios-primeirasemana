@@ -1,0 +1,25 @@
+{
+  "name": "mod4-exercicios-primeirasemana",
+  "version": "1.0.0",
+  "description": "",
+  "main": " dist/index.js",
+  "scripts":{
+    "start":"node dist/index.js",
+    "build": "npx tsc",
+    "build-and-run": "npm run build && npm start"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatylima/mod4-exercicios-primeirasemana.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatylima/mod4-exercicios-primeirasemana/issues"
+  },
+  "homepage": "https://github.com/tatylima/mod4-exercicios-primeirasemana#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
