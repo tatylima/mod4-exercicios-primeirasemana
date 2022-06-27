@@ -43,9 +43,9 @@ const persons: Person[] = [
     }
 ];
 
-function logPerson(person: Person) {
+export function logPerson(person: Person) {
     let additionalInformation: string | undefined;
-    if (person.ronle) {
+    if (person.role) {
         additionalInformation = person.role;
     } else {
         additionalInformation = person.occupation;
